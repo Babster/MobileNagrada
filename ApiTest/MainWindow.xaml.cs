@@ -113,6 +113,7 @@ namespace ApiTest
                 var stringData = "";
                 try
                 {
+                    //made some changes (testing GIT)
                     stringData = await client.GetStringAsync("http://" + URL /* +  ":8080/api/account/userinfo"*/);
                     this.ConnectionState = ConnectionStateTypes.Connected;
                 }
